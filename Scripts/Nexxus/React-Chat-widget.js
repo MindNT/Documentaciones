@@ -51,6 +51,7 @@ const NexxusChat = ({ idProfile, userId, color = '#007bff', position = 'bottom-r
           borderRadius: '15px',
           marginBottom: '20px',
           transition: 'all 0.3s ease',
+          transformOrigin: 'bottom right',
           transform: isOpen ? 'scale(1)' : 'scale(0)',
           opacity: isOpen ? '1' : '0',
           boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)',
