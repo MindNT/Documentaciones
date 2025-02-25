@@ -9,8 +9,6 @@ function App() {
       <NexxusChat
         idProfile="4"
         userId="1"
-        color="#FF5733" // Color personalizado
-        position="bottom-left" // Posición personalizada
       />
     </div>
   );
